@@ -1,36 +1,39 @@
 @import url(./fonts.css);
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.container1{
+
+.container1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 25px;
 }
 
-.Out{
+.Out {
     width: 800px;
     min-height: 300px;
     background-color: rgb(211, 212, 212);
-    border-radius: 10px ;
+    border-radius: 10px;
     border: 2px solid rgb(145, 145, 145);
     padding: 40px;
 }
-.In{
+
+.In {
     width: 800px;
     height: 300px;
     background-color: rgb(211, 212, 212);
-    border-radius: 10px ;
+    border-radius: 10px;
     border: 2px solid rgb(145, 145, 145);
     position: relative;
 }
 
 /* Buttons */
 
-.buttons{
+.buttons {
     height: 50px;
     display: flex;
     align-items: center;
@@ -38,53 +41,60 @@
 
 /* EditButton */
 
-.editButton{
+.editButton {
     width: 40px;
     height: 30px;
     background-color: rgb(214, 202, 94);
     border-radius: 5px;
     border: none;
 }
-.editButton:hover{
+
+.editButton:hover {
     background-color: rgb(196, 187, 106);
 }
-.editButton:focus{
+
+.editButton:focus {
     box-shadow: 0 0 0 3px rgb(253, 243, 146);
 }
 
 /* StyleButton */
 
-.styleButton{
+.styleButton {
     width: 40px;
     height: 30px;
     background-color: rgb(119, 198, 235);
     border-radius: 5px;
     border: none;
 }
-.styleButton:hover{
-    background-color:rgb(102, 161, 209)
+
+.styleButton:hover {
+    background-color: rgb(102, 161, 209)
 }
-.styleButton:focus{
+
+.styleButton:focus {
     box-shadow: 0 0 0 3px rgb(173, 243, 255);
 }
 
 /* In */
-.In{
+.In {
     display: flex;
     justify-content: center;
 }
-.inArea{
+
+.inArea {
     width: 740px;
     height: 170px;
     resize: none;
-    padding: 40px ;
+    padding: 40px;
     outline: none;
     border-radius: 7px;
 }
-.inArea:focus{
+
+.inArea:focus {
     box-shadow: 0 0 3px 3px rgb(62, 177, 223);
 }
-.inForm{
+
+.inForm {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -93,92 +103,107 @@
 
 /* InButtons */
 
-.inButtonos{
+.inButtonos {
     margin-top: 20px;
 }
-.addButton{
-    height: 30px ;
+
+.addButton {
+    height: 30px;
     width: 40px;
     background-color: red;
-    border-radius: 7px ;
+    border-radius: 7px;
     border: none;
 }
-.addButton:hover{
+
+.addButton:hover {
     background-color: rgb(146, 25, 25);
 }
-.addButton:focus{
+
+.addButton:focus {
     box-shadow: 0 0 3px 3px rgb(255, 135, 135);
 
 }
-.saveButton{
-    height: 30px ;
+
+.saveButton {
+    height: 30px;
     width: 40px;
     background-color: green;
-    border-radius: 7px ;
+    border-radius: 7px;
     border: none;
 }
-.saveButton:hover{
+
+.saveButton:hover {
     background-color: rgb(23, 85, 23);
 }
-.saveButton:focus{
+
+.saveButton:focus {
     box-shadow: 0 0 3px 3px rgb(147, 243, 147);
 }
 
 
 /* Style Form */
-.styleBlock{
+.styleBlock {
     width: 400px;
     height: 280px;
     position: absolute;
     top: 8px;
     left: 0px;
-    padding: 20px 20px 20px 20px; 
-    visibility: hidden;  
+    padding: 20px 20px 20px 20px;
+    visibility: hidden;
 }
-.styleForm{
+
+.styleForm {
     width: 700px;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-.fontSizeBlock{
+
+.fontSizeBlock {
     display: flex;
     flex-direction: column;
 }
-.radioBlock{
+
+.radioBlock {
     width: 300px;
     margin: 10px 0 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.fontBlock{
+
+.fontBlock {
     display: flex;
     flex-direction: column;
 }
-.styleOption{
+
+.styleOption {
     margin: 10px 0 10px;
     width: 260px;
     height: 40px;
 }
-.styleColorButton{
+
+.styleColorButton {
     margin-top: 10px;
 }
-.styleTextBlock{
+
+.styleTextBlock {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
 }
-.styleTextCheckbox{
+
+.styleTextCheckbox {
     margin-top: 10px;
 }
-b{
+
+b {
     font-size: 15px;
 }
 
 /* color menu */
-.backgroundColorMenu{
+.backgroundColorMenu {
     width: 150px;
     height: 150px;
     display: flex;
@@ -188,7 +213,8 @@ b{
     left: 550px;
     visibility: hidden;
 }
-.textColorMenu{
+
+.textColorMenu {
     width: 150px;
     height: 150px;
     display: flex;
@@ -198,40 +224,50 @@ b{
     left: 550px;
     visibility: hidden;
 }
-.clolrMenuBlock{
-    width: 50px ;
+
+.clolrMenuBlock {
+    width: 50px;
     height: 50px;
 }
-.red{
+
+.red {
     background-color: red;
 }
-.blue{
+
+.blue {
     background-color: blue;
 }
-.green{
+
+.green {
     background-color: green;
 }
-.black{
+
+.black {
     background-color: black;
 }
-.yellow{
+
+.yellow {
     background-color: yellow;
 }
-.pink{
+
+.pink {
     background-color: pink;
 }
-.white{
+
+.white {
     background-color: white;
 }
-.violet{
+
+.violet {
     background-color: violet;
 }
-.cadetblue{
+
+.cadetblue {
     background-color: cadetblue;
 }
 
 /* chooseForm */
-.container2{
+.container2 {
     position: absolute;
     top: 0;
     left: 0;
@@ -239,38 +275,44 @@ b{
     width: 100%;
     visibility: hidden;
 }
-.chooseForm{
+
+.chooseForm {
     margin-bottom: 20px;
     width: 110px;
     display: flex;
     justify-content: space-between;
 }
-.createBlock{
+
+.createBlock {
     width: 800px;
     margin: 50px auto;
     background-color: rgb(211, 212, 212);
-    border-radius: 10px ;
+    border-radius: 10px;
     border: 2px solid rgb(145, 145, 145);
     padding: 40px;
     position: relative;
 }
-.tableBlock{
+
+.tableBlock {
     visibility: hidden;
     display: flex;
     flex-direction: column;
 }
-.tableSmallBlocks{
+
+.tableSmallBlocks {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
 }
-.tableBorder{
+
+.tableBorder {
     display: flex;
     justify-content: space-around;
     margin-bottom: 10px;
 }
-.smallBorderblock{
+
+.smallBorderblock {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -279,19 +321,17 @@ b{
 
 
 /* List */
-.listSmallBlocks{
+.listSmallBlocks {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
 }
-.listBlock{
-   position: absolute;
-   top: 130px;
-   left: 43px;
-   width: 80%;
-   visibility: hidden;
+
+.listBlock {
+    position: absolute;
+    top: 130px;
+    left: 43px;
+    width: 80%;
+    visibility: hidden;
 }
-
-
-
