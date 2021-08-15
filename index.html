@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container1">
+        <div class="Out">
+
+        </div>
+        <div class="buttons">
+            <form name="buttonForm">
+                <button name="editButton" class="editButton" type="button">edit</button>
+                <button name="styleButton" class="styleButton" type="button">style</button>
+            </form>
+        </div>
+        <div class="In">
+            <form class="inForm" name="inForm">
+                <textarea name="inArea" class="inArea">  
+                    <p>ivan</p>   
+                    <p>ivan</p>   
+                    <p>ivan</p>   
+                    <p>ivan</p>   
+                    <p>ivan</p>   
+                </textarea>
+                <div class="inButtonos">
+                    <button name="addButton" class="addButton" type="button">add</button>
+                    <button name="saveButton" class="saveButton" type="button">save </button>
+                </div>
+            </form>
+            <div class="styleBlock">
+                <form class="styleForm" name="styleForm">
+                    <div class="fontSizeBlock">
+                        <b>Font size:</b>
+                        <div class="radioBlock">
+                            <label for="12">
+                                <input class="form-check-input" value="12px" id="12" name="fontSize" type="radio">12px
+                            </label>
+                            <label for="14">
+                                <input class="form-check-input" value="14px" id="14" name="fontSize" type="radio">14px
+                            </label>
+                            <label for="16">
+                                <input checked class="form-check-input" value="16px" id="16" name="fontSize"
+                                    type="radio">16px
+                            </label>
+                            <label for="18">
+                                <input class="form-check-input" value="18px" id="18" name="fontSize" type="radio">18px
+                            </label>
+                            <label for="20">
+                                <input class="form-check-input" value="20px" id="20" name="fontSize" type="radio">20px
+                            </label>
+                        </div>
+                    </div>
+                    <div class="fontBlock">
+                        <b>Font family:</b>
+                        <select style="width: 260px;" class="styleOption form-control" name="fontFamily" id="">
+                            <option value="Coose option">Coose option</option>
+                            <option value="Space-Mono">Space-Mono</option>
+                            <option value="Josefin-Sans">Josefin-Sans</option>
+                            <option value="Cormorant-Infant">Cormorant-Infant</option>
+                            <option value="Cedarville-Cursive">Cedarville-Cursive</option>
+                        </select>
+                    </div>
+                    <div class="colorBlock">
+                        <b>Colors:</b>
+                        <div class="styleColorButton">
+                            <button type="button" class="btn btn-primary" name="textColor">Color of text</button>
+                            <button type="button" class="btn btn-primary" name="backgroundColor">Background
+                                color</button>
+                        </div>
+                    </div>
+                    <div class="styleTextBlock">
+                        <b>Style:</b>
+                        <div class="styleTextCheckbox">
+                            <label for="bold">
+                                <input value="bold" id="bold" class="custom-control-input" name="styleCheckbox"
+                                    type="checkbox">Bold text
+                            </label>
+                            <label for="cursive">
+                                <input value="italic" id="cursive" class="custom-control-input" name="styleCheckbox"
+                                    type="checkbox">Cursive
+                                text
+                            </label>
+                        </div>
+                    </div>
+                </form>
+                <div class="textColorMenu">
+                    <div class="clolrMenuBlock red"></div>
+                    <div class="clolrMenuBlock blue"></div>
+                    <div class="clolrMenuBlock green"></div>
+                    <div class="clolrMenuBlock black"></div>
+                    <div class="clolrMenuBlock yellow"></div>
+                    <div class="clolrMenuBlock pink"></div>
+                    <div class="clolrMenuBlock white"></div>
+                    <div class="clolrMenuBlock violet"></div>
+                    <div class="clolrMenuBlock cadetblue"></div>
+                </div>
+                <div class="backgroundColorMenu">
+                    <div class="clolrMenuBlock red"></div>
+                    <div class="clolrMenuBlock blue"></div>
+                    <div class="clolrMenuBlock green"></div>
+                    <div class="clolrMenuBlock black"></div>
+                    <div class="clolrMenuBlock yellow"></div>
+                    <div class="clolrMenuBlock pink"></div>
+                    <div class="clolrMenuBlock white"></div>
+                    <div class="clolrMenuBlock violet"></div>
+                    <div class="clolrMenuBlock cadetblue"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container2">
+        <div class="createBlock">
+            <h2>Choose what you want</h2>
+            <form class="chooseForm" name="chooseForm">
+                <label for="table">
+                    <input class="form-check-input" id="table" name="choose" type="radio">table
+                </label>
+                <label for="list">
+                    <input class="form-check-input" id="list" name="choose" type="radio">list
+                </label>
+            </form>
+            <div class="tableBlock">
+                <form name="tableForm">
+                    <div class="tableSmallBlocks">
+                        <span>Count TR:</span>
+                        <input name="countTr" placeholder="Count TR" style="width: 85%;" class="form-control"
+                            type="text">
+                    </div>
+                    <div class="tableSmallBlocks">
+                        <span>Count TD:</span>
+                        <input name="countTd" placeholder="Count TD" style="width: 85%;" class="form-control"
+                            type="text">
+                    </div>
+                    <h3>Add Style to you table:</h3>
+                    <div class="tableSmallBlocks">
+                        <span>Width of TD :</span>
+                        <input name="widthTd" placeholder="Width of TD" style="width: 85%;" class="form-control"
+                            type="text">
+                    </div>
+                    <div class="tableSmallBlocks">
+                        <span>Height of TD :</span>
+                        <input name="heightTd" placeholder="Height of TD" style="width: 85%;" class="form-control"
+                            type="text">
+                    </div>
+
+                    <div class="tableBorder">
+                        <div class="smallBorderblock">
+                            <span>Width of Border:</span>
+                            <input name="borderWidth" placeholder="Width" style="width: 120px;" class="form-control"
+                                type="text"></div>
+                        <div class="smallBorderblock">
+                            <span>Type of border:</span>
+                            <select style="width: 40%;" class="form-control" name="tableTypeBorder" id="">
+                                <option value="solid ">solid</option>
+                                <option value="double">double</option>
+                                <option value="dotted">dotted</option>
+                            </select>
+                        </div>
+                        <div class="smallBorderblock">
+                            <span>Color of border:</span>
+                            <select style="width: 40%;" class="form-control" name="tableColorBorder" id="">
+                                <option value="black">black</option>
+                                <option value="red">red</option>
+                                <option value="blue">blue</option>
+                                <option value="green">green</option>
+                            </select>
+                        </div>
+
+                    </div>
+                    <button class="btn btn-success" type="button" name="tableCreateButton">Create button</button>
+                </form>
+
+
+            </div>
+            <div class="listBlock">
+                <form name="listForm">
+                    <div class="listSmallBlocks">
+                        <span>Count Li:</span>
+                        <input name="CounLi" placeholder="Count Li" style="width: 85%;" class="form-control"
+                            type="text">
+                    </div>
+                    <div class="listSmallBlocks">
+                        <span>Type of marks:</span>
+                        <select style="width: 85%;" class="form-control" name="ListType">
+                            <option value="circle">circle</option>
+                            <option value="disc">disc</option>
+                            <option value="square">square</option>
+                        </select>
+                    </div>
+                    <button name="createList" class="btn btn-success" type="button">Create List</button>
+                </form>
+
+            </div>
+
+            <div></div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

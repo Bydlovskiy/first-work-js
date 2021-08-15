@@ -1,0 +1,16 @@
+@font-face {
+    font-family:Space-Mono ;
+    src: url(./fonts/Space_Mono/SpaceMono-Regular.ttf);
+}
+@font-face {
+    font-family: Josefin-Sans ;
+    src: url(./fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:Cormorant-Infant ;
+    src: url(./fonts/Cormorant_Infant/CormorantInfant-Regular.ttf);
+}
+@font-face {
+    font-family: Cedarville-Cursive ;
+    src: url(./fonts/Cedarville_Cursive/CedarvilleCursive-Regular.ttf);
+}
